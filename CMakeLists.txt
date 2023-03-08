@@ -9,5 +9,5 @@ project ("alphaHiASM_cmake")
 add_executable (alphaHiASM   "assembly.cpp" "overlap.cpp" "utility.cpp" "assembly.h" "overlap.h" "utility.h" "memory_info.h" "main.cpp")
 
 # TODO: 如有需要，请添加测试并安装目标。
-include_directories ("/home/caiwenda/seqan/include" "/home/caiwenda/boost")
+include_directories ("./seqan/include" "./boost")
 target_link_libraries (alphaHiASM "pthread")

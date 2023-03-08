@@ -32,6 +32,11 @@ bld/
 [Oo]ut/
 [Ll]og/
 [Ll]ogs/
+[Bb]uild
+
+# Include dir
+seqan/
+boost/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
