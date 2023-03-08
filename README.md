@@ -68,10 +68,23 @@ cp -r boost_1_78_0/* alphaHiASM/boost
 cd alphaHiASM
 ```
 
+创建 build 目录
+
+```
+mkdir build
+```
+
+切换到 build 目录
+
+```
+cd build
+```
+
 编译
 
 ```
-make all
+cmake ../
+make
 ```
 
 尝试运行
